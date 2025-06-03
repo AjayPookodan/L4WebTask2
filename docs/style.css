@@ -1,0 +1,97 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #dea0a0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    flex-direction: column;
+}
+
+.header{
+    border: 8px solid black;
+    min-width: 1000px;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: larger;
+    background-color: lightgray;
+    
+}
+
+.content{
+    min-width: 1000px;
+    
+    padding: 20px;
+    border: 5px solid black;
+    font-size: larger;
+    background-color:rgb(242, 249, 112);
+
+}
+
+.item{
+    border: 2px solid black;
+    
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    overflow: hidden;
+
+}
+#a1{
+    
+    border-radius: 50%; 
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}   
+#a3{
+    background-color: rgb(33, 183, 171);
+    border-radius: 10px;
+}
+
+.item-text{
+    background-color: rgb(178, 234, 59);
+    margin: 15px;
+    padding: 9px;
+    border: 2px thin black;
+    border-radius: 10px;
+}
+.item-text h1{
+    color: hotpink;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.divider{
+    width: 100%;
+    height: 10px;
+    
+    margin :5px 0;
+    border-bottom: 10px dotted purple;
+}
+
+#intro h2{
+    font-style: italic;
+}
+
+ul{
+    list-style-type: square;
+    padding-left: 20px;
+    background-color: #eeeeee;
+    border: 5px solid purple;
+}
+
+a:hover{
+    color:green;
+}
+   
+
